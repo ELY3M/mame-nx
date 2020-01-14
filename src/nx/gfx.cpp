@@ -264,5 +264,6 @@ void Gfx::clear(Gfx::RGBA Color)
 void Gfx::exit()
 {
 	menu_cleanup();
-    gfxExit();
+    ///gfxExit();
+	consoleExit(NULL);
 }
